@@ -15,6 +15,7 @@
     
     <!-- External CSS File implementation -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/itinerary-details.css">
   </head>
   
   <body>
@@ -22,11 +23,11 @@
     <div id="header" class="navbar fixed-top navbar-inverse bg-inverse" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">VacationSwap</a>
+          <a class="navbar-brand" href="index.html">VacationSwap</a>
         </div>
         <ul class="nav navbar-nav">
           <!-- Change this to the proper page name -->
-          <li><a>THIS WILL BE THE ITENIRARY NAME</a></li>
+          <li><a>Boston, MA</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a id="signin_text" href="signin.html">Sign In <span class="glyphicon glyphicon-user"></span></a></li>
@@ -39,6 +40,96 @@
       <div id="content" class="container clear-top">
         <!-- Put all content code here -->
         
+        <div class="row">
+          <!-- Destinations -->
+          <div class="col-md-6">
+            <div class="container-fluid">
+              <form id="destination">
+                <div class="input-group">
+                  <h3 style="width: 100%">My Trip to Boston!</h3>
+                </div>
+              </form>
+              <br>
+              <ul class="nav nav-tabs" role="tablist">
+                <li class="active"><a href="#day_1" data-toggle="tab">Day 1</a></li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane active" id="day_1">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">DESTINATION 1</div>
+                    <div class="panel-body">
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <img src="assets/images/boston-common.jpg" style="width: 130px; height: 130px" alt="Boston Common">
+                        </div>
+                        
+                        <div class="col-sm-9 allInfo">
+                          <p class="location">Boston Common</p>
+                          <p class="description">Lorum Ipsum stuff</p>
+                          <div class="tags">
+                            <a href="">Nature</a>
+                            <a href="">Family</a>
+                            <a href="">Picnic</a>
+                          </div>
+                          <p class="moreImages pull-right">View More Images >></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="panel panel-default">
+                    <div class="panel-heading">DESTINATION 2</div>
+                    <div class="panel-body">
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <img src="assets/images/thinking-cup.jpg" style="width: 130px; height: 130px" alt="Thinking Cup">
+                        </div>
+                        
+                        <div class="col-sm-9 allInfo">
+                          <p class="location">Thinking Cup</p>
+                          <p class="description">Lorum Ipsum stuff</p>
+                          <div class="tags">
+                            <a href="">Cafe</a>
+                            <a href="">Food</a>
+                          </div>
+                          <p class="moreImages pull-right">View More Images >></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="panel panel-default">
+                    <div class="panel-heading">DESTINATION 3</div>
+                    <div class="panel-body">
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <img src="assets/images/copley-square.jpg" style="width: 130px; height: 130px" alt="Copley Square">
+                        </div>
+                        
+                        <div class="col-sm-9 allInfo">
+                          <p class="location">Copley Square</p>
+                          <p class="description">Lorum Ipsum stuff</p>
+                          <div class="tags">
+                            <a href="">Sight-seeing</a>
+                            <a href="">Nature</a>
+                          </div>
+                          <p class="moreImages pull-right">View More Images >></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          
+           <!-- Google Maps -->
+          <div class="col-md-6">
+            <img src="assets/images/gMaps.png" id="googleMapsImg">
+          </div>
+        </div>
+        
       </div>
     </div>
 
@@ -50,7 +141,7 @@
         </ul>
         <ul id="footer_links" class="nav navbar-nav">
           <li><a href="about.html">About Us</a></li>
-          <li><a href="ontact.html">Contact Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </div>
     </div>
