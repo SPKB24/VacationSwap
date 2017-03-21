@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta Information -->
+    <meta charset="utf-8">
+
+    <!-- Title for tab header -->
+    <title>VacationSwap</title>
+
+    <!-- Bootstrap!-->
+    <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- jQuery ui style sheet, commented out for now -->
+    <!--    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/start/jquery-ui.css">-->
+
+    <!-- External CSS File implementation -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/itineraryCreator.css">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div id="header" class="navbar fixed-top navbar-inverse bg-inverse" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">VacationSwap</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <!-- Change this to the proper page name -->
+          <li><a>New Itinerary</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a id="signin_text" href="signin.html">Sign In <span class="glyphicon glyphicon-user"></span></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div id="wrap">
+      <div id="content" class="container clear-top">
+        <!-- Put all content code here -->
+        <div class="container-fluid">
+          <form id="destination">
+            <div class="input-group">  
+              <input type="text" class="form-control" placeholder="Destination" style="width: 100%">
+            </div>
+          </form>
+          <br>
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="active"><a href="#day_1" data-toggle="tab">Day 1</a></li>
+            <li><a href="#" class="add-day">+ Day</a></li>
+  <!--          <button type="button" id="createTab">+ Day</button>-->
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="day_1">
+              <div class="panel panel-default">
+                <div class="panel-heading">DESTINATION 1</div>
+                <div class="panel-body">
+                  <form>
+                    <label class="control-label col-sm-4" for="location">Location:</label>
+                    <div class="input-group" style="width:100%">
+                      <input type="text" class="form-control">
+                    </div>
+
+                    <br>
+
+                    <label class="control-label col-sm-4" for="description">Description:</label>
+                    <div class="input-group" style="width:100%">
+                      <input type="text" class="form-control">
+                    </div>
+
+                    <br>
+
+                    <label class="btn btn-default" for="file-selector">Upload Images<input id="file-selector" type="file" style="display:none"></label>
+                  </form>
+                </div>
+              </div>
+
+              <button type="button" class="btn btn-primary">+ Destination</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" class="navbar navbar-inverse bg-inverse" role="navigation">
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a>VacationSwap © 2017 All Rights Reserved </a></li>
+        </ul>
+        <ul id="footer_links" class="nav navbar-nav">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.3.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type='text/javascript' src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+    <script type='text/javascsript' src="assets/js/itineraryTabs.js"></script>
+
+    
+    <script>
+      $( document ).ready(function() {  });
+    </script>
+ </body>
+</html>

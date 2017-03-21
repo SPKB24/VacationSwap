@@ -1,0 +1,21 @@
+.panel > .panel-heading {
+  background-image: none; /* Need this to override default background color */
+  background-color: rgba(102, 204, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.panel-body {
+  background-color: rgba(102, 204, 255, 0.5);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.panel-body label {
+  margin-left: -10px;
+}
+
+#content .container-fluid {
+/*  background-color: rgba(0, 0, 0, 0.1);*/
+  border: 1px solid black;
+  padding: 20px;
+  min-height: calc(100% - 50px);
+}

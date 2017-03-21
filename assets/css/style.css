@@ -1,0 +1,57 @@
+/*
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}*/
+
+html, body {
+  height: 100%;
+}
+
+#header {
+  padding: 0px;
+  background: rgba(0,0,0,0.8);
+}
+
+#header a {
+  color: white;
+  opacity: 1;
+}
+
+#header .navbar-brand {
+  font-weight: 400;
+  color: white;
+  opacity: 0.9;
+  border-right: 0.1px solid #ffffff;
+  border-right-color: rgba(0,0,0,0.3);
+}
+
+#header .navbar-brand:hover {
+  opacity: 1;
+}
+
+#wrap {
+  min-height: calc(100% - 145px);
+}
+
+#content {
+  overflow: auto;
+/*  padding-bottom: 50px;*/
+  color: black;
+}
+
+.panel-heading {
+  font-weight: 600;
+}
+
+#footer {
+  min-height: 50px;
+  margin-bottom: -15px;
+  background: rgba(0,0,0,0.8);
+  margin-top: 20px;
+}
+
+#footer #footer_links {
+  float: right;
+}
