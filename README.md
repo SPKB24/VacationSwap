@@ -1,6 +1,7 @@
 # VacationSwap
 
-Link to VacationSwap: https://vacationswap.github.io/VacationSwapWeb/
+Link to VacationSwap: https://spkb24.github.io/VacationSwap/
+
 
 
 #### Summary
