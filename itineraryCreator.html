@@ -44,7 +44,7 @@
         <div class="container-fluid">
           <form id="destination">
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="Destination" style="width: 100%">
+              <input type="text" id="tags" class="form-control" placeholder="Destination" style="width: 100%">
             </div>
             <h3>Choose tags</h3>
             <div class="tags">
@@ -115,7 +115,8 @@
     <script type='text/javascript' src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
     </script>
     <script type='text/javascsript' src="assets/js/itineraryTabs.js"></script>
-
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO9_fZmjH5p9XEs43MA_NG4ZEnicbRGHM&libraries=places&callback=initAutocomplete" async defer></script>
+    <script src="assets/js/googleplacesapi.js"></script>
 
     <script>
       $( document ).ready(function() {  });
